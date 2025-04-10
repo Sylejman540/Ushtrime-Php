@@ -39,5 +39,14 @@
 
     <!-- Variables are a memory location that holds data or stores them, variables in PHP are assigned with dollar sign. We have a lot of data type in php
     like: scalar types, arrays, objects. -->
+
+    <!-- Built-In Superglobal Variables -->
+    <?php
+    // echo $_SERVER['PHP_SELF'];
+    // echo $_SERVER['SERVER_NAME'];
+    // echo $_SERVER['SCRIPT_NAME'];
+
+    echo $_GET['name'];
+    ?>
 </body>
 </html>
