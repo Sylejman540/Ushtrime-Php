@@ -36,5 +36,8 @@
     ?>
 
     <p>My name is <?php echo $name; ?>, I'am a frontend dev looking forward to backend</p>
+
+    <!-- Variables are a memory location that holds data or stores them, variables in PHP are assigned with dollar sign. We have a lot of data type in php
+    like: scalar types, arrays, objects. -->
 </body>
 </html>
