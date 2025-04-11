@@ -42,11 +42,6 @@
 
     <!-- Built-In Superglobal Variables -->
     <?php
-    // echo $_SERVER['PHP_SELF'];
-    // echo $_SERVER['SERVER_NAME'];
-    // echo $_SERVER['SCRIPT_NAME'];
-
-    echo $_GET['name'];
     ?>
 </body>
 </html>
