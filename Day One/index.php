@@ -41,7 +41,5 @@
     like: scalar types, arrays, objects. -->
 
     <!-- Built-In Superglobal Variables -->
-    <?php
-    ?>
 </body>
 </html>
