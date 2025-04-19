@@ -1,16 +1,15 @@
-<?php 
+<?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myfirstdatabase";
+$dbHost = 'localhost';
+$dbusername = 'root';
+$dbpassword = '';
+$dbname = 'myfirstdatabase';
 
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($dbHost, $dbusername, $dbpassword, $dbname);
 
 if($conn->connect_error){
-    die("Connection failed");
+    echo "Connection failed: " . $conn->connect_error;
+    exit();
 }
-
-echo "Connected successfully";
+// echo "Connected successfully"; // Uncomment for debugging
 
